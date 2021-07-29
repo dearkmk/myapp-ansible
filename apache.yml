@@ -10,3 +10,8 @@
     - name:create a directory
       file:path:/root/muskdir
         state:directory
+    - name:copy message to a file
+      copy:
+        dest:/root/muskfile.txt
+        content:" {{ message }} "
+
