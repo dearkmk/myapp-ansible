@@ -1,7 +1,6 @@
 ---
 - hosts:agent
-  #user:root
-- tasks:
+  tasks:
     - name:create a file
       file:path:/root/muskfile.txt
          state:touch
