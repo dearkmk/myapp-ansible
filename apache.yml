@@ -6,10 +6,10 @@
   tasks
     - name:create a file
       file:
-         path: /root/muskfile.txt
-         state: touch
+         path:/root/muskfile.txt
+         state:touch
     - name:create a directory
       file:
-         path: /root/muskdir
-         state: directory
+         path:/root/muskdir
+         state:directory
 ...
