@@ -9,4 +9,4 @@
          state:touch
     - name:create a directory
       file:path:/root/muskdir
-         state:directory
+        state:directory
