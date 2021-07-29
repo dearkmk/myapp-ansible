@@ -8,7 +8,6 @@
       file:path:/root/muskfile.txt
          state:touch
     - name:create a directory
-      file:
-         path:/root/muskdir
+      file:path:/root/muskdir
          state:directory
 ...
