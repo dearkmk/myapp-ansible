@@ -10,4 +10,3 @@
     - name:create a directory
       file:path:/root/muskdir
          state:directory
-...
