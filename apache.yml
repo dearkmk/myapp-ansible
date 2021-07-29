@@ -4,7 +4,7 @@
   vars:
      message: "muskpb3 is 2nd own playbook with variable\n "
   tasks
-    - name: "create a file"
+    - name : "create a file"
       file:
          path: /root/muskfile.txt
          state: touch
