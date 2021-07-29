@@ -13,4 +13,3 @@
     - name:copy message to a file
       copy:dest:/root/muskfile.txt
         content:" {{ message }} "
-
